@@ -14,6 +14,7 @@ oos.close();
 }
 catch(Exception e) {
 System.out.println("Exception during serialization: " + e);
+System.out.println("testing data");
 System.exit(0);
 }
 // Object deserialization
